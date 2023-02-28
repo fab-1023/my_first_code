@@ -1,0 +1,12 @@
+#this program is written for finding the values of x any quadratic equations!
+
+print("for function f(x)= aX^2+bX+c")
+a= int(input('what is the value of a? '))
+b= int(input('what is the value of b? '))
+c= int(input('what is the value of c? '))
+
+squ_delta= (b**2 - 4*a*c)**0.5
+x1= (-b + squ_delta)/2*a
+x2= (-b - squ_delta)/2*a
+
+print('the values of x1 and x2 are ' + str(x1) + ' and ' + str(x2) +' respectively.' )
